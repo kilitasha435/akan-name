@@ -1,0 +1,28 @@
+ul{
+    position: relative;
+    width: 100%;
+   list-style-type: none;
+   margin: 0px;
+   padding: 0px;
+   overflow: hidden;
+   background-color: grey;
+   top: 2px;
+   border: 3px;
+  } 
+  li{
+    float: left;
+    margin-left:30% ;
+    margin:30px ;
+    margin-right: 5%;
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+   li a{
+    display: -moz-inline-stack;
+    color: blue;
+    text-align: left;
+    padding: 12px 11px;
+   text-decoration: rgb(30, 30, 182);
+   padding: 0px;
+   hover
+   }
