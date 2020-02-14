@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,55 +9,119 @@
     <script src="script.js"></script>
     <title>AKAN NAME</title>
 </head>
-<body>
-    <div class="container">
-     <div class="jumbotron">
-        <div class="topnav">
-            <a class="active" href="#home">Home</a>
-            <a href="#about akan">About</a>
-            <a href="#form">form</a>
-            <a href="#contact">Contact</a>
-          </div>
-        <h1>FIND YOUR AKAN NAME HERE</h1>
-      </div>
-      <div>
-          <img src="images/78716ba8a913ec5f71c725b23a3de636.jpg" alt="naming of Ghanaians" id="home">
-      </div>
-   </div> 
-    <div>
-        <h1></h1>
-        <p id="about akan">The Akan people of Ghana frequently name their children after the day of the week they were born and the order in which they were born. These "day names" have further meanings concerning the soul and character of the person. Middle names have considerably more variety and can refer to their birth order, twin status, or an ancestor's middle name.
 
-            This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th centuries, slaves in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees. Many of the leaders of slave rebellions had "day names" including Cuffy or Kofi, Cudjoe or Kojo, and Quamina or Kwame/Kwamina.
-            
-            Most Ghanaians have at least one name from this system, even if they also have an English or Christian name. Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations Secretary-General Kofi Annan.
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#about akan">About</a>
+                <a href="#form">form</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <h1>FIND YOUR AKAN NAME HERE</h1>
+        </div>
+        <div>
+            <img src="images/78716ba8a913ec5f71c725b23a3de636.jpg" alt="naming of Ghanaians" id="home">
+        </div>
+    </div>
+    <div>
+        <h1>ABOUT AKAN CULTURE</h1>
+        <p id="about akan">The Akan people of Ghana frequently name their children after the day of the week they were
+            born and the order in which they were born. These "day names" have further meanings concerning the soul and
+            character of the person. Middle names have considerably more variety and can refer to their birth order,
+            twin status, or an ancestor's middle name.
+
+            This naming tradition is shared throughout West Africa and the African diaspora. During the 18th–19th
+            centuries, slaves in the Caribbean from the region that is modern-day Ghana were referred to as Coromantees.
+            Many of the leaders of slave rebellions had "day names" including Cuffy or Kofi, Cudjoe or Kojo, and Quamina
+            or Kwame/Kwamina.
+
+            Most Ghanaians have at least one name from this system, even if they also have an English or Christian name.
+            Notable figures with day names include Ghana's first president Kwame Nkrumah and former United Nations
+            Secretary-General Kofi Annan.
             <br>
-           Are you interested in knowing your Akan name kindly fill the form below
+            Are you interested in knowing your Akan name kindly fill the form below
         </p>
     </div>
-    <div id="form" class="primary">
-        <form action="#" method="POST" onclick="return false" class="form">
+
+    <form>
+        <div class="form-group " onsubmit="event.preventDefault()">
+            <label for="Year">Year Of Birth</label>
+            <input type="text" class="form-control" id="year" placeholder="Enter the year">
+        </div>
+        <div class="form-group">
+            <label for="Month">Month of birth</label>
+            <select class="form-control" id="month">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="Date">Date Of Birth</label>
+            <select class="form-control" id="day">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+        </div>
+        <div class="form-group">
             <div>
-             <label for="input-date of birth">Date of birth</label>
-             <input type="text" name="date of birth" id="date of birth" required placeholder="Date of birth in figures" maxlength="2">
+                <label for="radio" class="radio-inline">
+                    <input type="radio" value="male" name="gender" id="male" required />
+                    Male </label><br />
+                <label for="radio" class="radio-inline">
+                    <input type="radio" value="female" name="gender" id="female" required />
+                    Female
+                </label>
             </div>
-         <div>
-            <label for="input-month of month">Month of birth</label>
-            <input type="text" name="month of birth" id="month of birth" required placeholder="Month of birth in figures">
+            <button type="submit" onclick="getName()" onsubmit="event.preventDefault()"
+            class="btn btn-outline-primary">submit</button>
+        <button type="Reset" onclick="getName()" onsubmit="event.preventDefault()"
+            class="btn btn-outline-primary">Reset</button>
         </div>
-        <div>
-            <label for="input-year of birth">Year of birth</label>  
-            <input type="text" name="year of birth" id="year of birth" required placeholder="Year of birth in figures" maxlength="4">
-        </div>
-        <div>
-            <h3>SELECT YOU GENDER</h3>
-            <input type="radio" name="gender" id="gender" value="male" checked/> Male<br>
-            <input type="radio" name="gender" id="gender" value="female"checked> Female<br>
-            <input type="submit" value="submit" onclick="akanNames()">
-        </div>
-        </form>
+
         <p id="results">YOUR AKAN NAME IS;</p>
     </div>
-    
+
 </body>
+
 </html>
