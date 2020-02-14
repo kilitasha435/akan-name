@@ -19,14 +19,33 @@ else{
 if(MM <0||MM > 12){
     alert("not a month");
 }
-else if(DD < 0||DD > 31){
+else if(DD<0||DD>31){
     alert("not a date");
 }
-else if(MM == 2 && DD > 29){
+else if(MM == 2 && DD>29){
     alert("does not have those no of days");
 }
-else if(YY < 1000||YY>2020){
+else if(YY<1000||YY>2020){
     alert("we are not yet there")
 }
+Monday
+else if(Math.ceil(dayOfTheWeek)==1 && gender ==='male||gender==='female){
+    if(gender==='male'){
+        document.getElementById("results").innerHTML="Your day name is"+ maleNames[1]+",which means you where born on a Monday."
+    }
+ else{
+        document.getElementById("results").innerHTML="Your day name is"+femaleNames[1]+",which means you were born on  a Monday"
+    }
+}
+ Tuesday
+else if(Math.ceil(dayOfTheWeek)==2 && gender ==='female'||gender==='male'){
+        if(gender==='male'){
+            document.getElementById("results").innerHTML="Your day name is"+maleNames[2]+",which means you were born on a Tuesday."
+        }
+        else{
+         document.getElementById("results").innerHTML="Your day name is"+maleNames[2]+",which means you were born on a Tuesday."
+        }
+}
+
 
 }
