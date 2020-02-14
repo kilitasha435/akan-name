@@ -35,28 +35,29 @@
         </p>
     </div>
     <div id="form" class="primary">
-        <form action="#" method="POST" onclick="return validation();" class="form">
+        <form action="#" method="POST" onclick="return false" class="form">
             <div>
              <label for="input-date of birth">Date of birth</label>
-             <input type="text" name="date of birth" id="date of birth" required placeholder="Date of birth">
+             <input type="text" name="date of birth" id="date of birth" required placeholder="Date of birth in figures" maxlength="2">
             </div>
          <div>
             <label for="input-month of month">Month of birth</label>
-            <input type="text" name="month of birth" id="month of birth" required placeholder="Month of birth">
+            <input type="text" name="month of birth" id="month of birth" required placeholder="Month of birth in figures">
         </div>
         <div>
             <label for="input-year of birth">Year of birth</label>  
-            <input type="text" name="year of birth" id="year of birth" required placeholder="Year of birth">
-        </div>
-        <div style="font-size: medium;">
-            <input type="radio" name="gender" value="male"> Male<br>
-            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="text" name="year of birth" id="year of birth" required placeholder="Year of birth in figures" maxlength="4">
         </div>
         <div>
-            <input type="submit" name="submit" value="submit">
-            <input type="reset" name="reset" value="reset">
+            <h3>SELECT YOU GENDER</h3>
+            <input type="radio" name="gender" value="male" checked/> Male<br>
+            <input type="radio" name="gender" value="female" checked > Female<br>
+        </div>
+        <div>
+            <input type="submit" name="submit" value="submit" onclick="akanNames()">
         </div>
         </form>
+        <p id="results">YOUR AKAN NAME IS;</p>
     </div>
     
 </body>
