@@ -1,6 +1,7 @@
 # AKAN NAMES
 
 * It is project that when one wants to know his/her name in AKan they just fill in the form and it will pop up.
+* A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
 * The webpage was made by Kevin Kili
 
 ### The webpage uses :
@@ -13,6 +14,9 @@
 # Requirements
 
 *  for one to be able to acces this webpage he/she has to have access to my webpage.
+
+### ANY BUG
+* I have not yet found any bug..
 
 ###### for ny clarrifiaction about this webpage kindly call 
 * 0717464934
