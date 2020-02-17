@@ -17,6 +17,7 @@
 # Requirements
 
 *  for one to be able to acces this webpage he/she has to have access to my webpage.
+* And should have a general understanding about akan culture
 
 ### ANY BUG
 * I have not yet found any bug..
