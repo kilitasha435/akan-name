@@ -17,7 +17,7 @@
 
 # Requirements
 
-*  for one to be able to acces this webpage he/she has to have access to my webpage.
+*  for one to be able to acces this webpage he/she has to have access to internet.
 * And should have a general understanding about akan culture
 
 ### ANY BUG
@@ -27,6 +27,7 @@
 ###### for ny clarrifiaction about this webpage kindly call 
 * 0717464934
 * 0722563474
+* 0774882317
 ## the webpage uses the MIT licence
 * 
 Copyright <YEAR> <COPYRIGHT HOLDER>
