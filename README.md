@@ -21,6 +21,7 @@
 
 ### ANY BUG
 * I have not yet found any bug..
+* But if found any kindly feel free to communicate
 
 ###### for ny clarrifiaction about this webpage kindly call 
 * 0717464934
