@@ -7,6 +7,7 @@
 * The webpage was made by Kevin Kili
 * The active link to my webpage is  https://kilitasha435.github.io/akan-name/
 * Feel free to visit my webpage.
+* Feel free to share your experience.
 
 ### The webpage uses :
 
