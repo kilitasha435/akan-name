@@ -13,6 +13,7 @@
 * Bootstrap
 * JavaScript
 * CSS
+* jquery
 
 # Requirements
 
